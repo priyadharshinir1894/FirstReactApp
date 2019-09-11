@@ -1,13 +1,14 @@
 import React, { Component } from "react";
+import { GetName } from "../services/NameService";
 
 class App extends Component {
   state = {
     Name: null
   };
   componentDidMount() {
-    setTimeout(() => {
-      this.setState({ Name: "Priya" });
-    }, 1000);
+    GetName(res => {
+      this.setState({ Name: res.data.Name });
+    });
   }
   render() {
     return (
