@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyadharshinir1894/FirstReactApp.git"
+  },
+  "keywords": [
+    "Server"
+  ],
+  "author": "Priya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyadharshinir1894/FirstReactApp/issues"
+  },
+  "homepage": "https://github.com/priyadharshinir1894/FirstReactApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2"
+  }
+}
